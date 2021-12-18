@@ -1,0 +1,25 @@
+@charset "UTF-8";
+#wrap {
+    .img-wrap {
+        .round-1 {
+            .type {
+                display: flex;
+                justify-content: space-around;
+                &.typeB {
+                    margin-top: 20px;
+                }
+            }
+            .img-wrap {
+                width: 150px;
+                height: 150px;
+                overflow: hidden;
+                border: 1px solid #ddd;
+                cursor: pointer;
+                img {
+                    width: 150%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

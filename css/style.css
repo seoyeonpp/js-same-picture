@@ -1,0 +1,26 @@
+#wrap .img-wrap .round-1 .type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#wrap .img-wrap .round-1 .type.typeB {
+  margin-top: 20px;
+}
+
+#wrap .img-wrap .round-1 .img-wrap {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#wrap .img-wrap .round-1 .img-wrap img {
+  width: 150%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
