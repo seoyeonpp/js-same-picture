@@ -6,24 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>같은그림 찾기</title>
         <link rel="stylesheet" href="css/style.css" />
-        <script src="js/script.js"></script>
+        <script src="js/script.js" defer></script>
     </head>
     <body>
         <div id="wrap">
             <h1>같은그림을 찾아볼까요???😜</h1>
             <div class="img-wrap">
                 <div class="round-1">
-                    <div class="type typeA">
-                        <div class="img-wrap"><img class="img" src="/img/1.jpeg" alt="" /></div>
-                        <div class="img-wrap"><img class="img" src="/img/2.png" alt="" /></div>
-                        <div class="img-wrap"><img class="img" src="/img/3.jpeg" alt="" /></div>
-                        <div class="img-wrap"><img class="img" src="/img/4.jpeg" alt="" /></div>
+                    <div class="type" id="typeA">
+                        <div class="img-wrap" data-img="img1"><img class="img" src="/img/1.jpeg" alt="" /></div>
+                        <div class="img-wrap" data-img="img2"><img class="img" src="/img/2.png" alt="" /></div>
+                        <div class="img-wrap" data-img="img3"><img class="img" src="/img/3.jpeg" alt="" /></div>
+                        <div class="img-wrap" data-img="img4"><img class="img" src="/img/4.jpeg" alt="" /></div>
                     </div>
-                    <div class="type typeB">
-                        <div class="img-wrap"><img class="img" src="/img/3.jpeg" alt="" /></div>
-                        <div class="img-wrap"><img class="img" src="/img/4.jpeg" alt="" /></div>
-                        <div class="img-wrap"><img class="img" src="/img/1.jpeg" alt="" /></div>
-                        <div class="img-wrap"><img class="img" src="/img/2.png" alt="" /></div>
+                    <div class="type" id="typeB">
+                        <div class="img-wrap" data-img="img3"><img class="img" src="/img/3.jpeg" alt="" /></div>
+                        <div class="img-wrap" data-img="img4"><img class="img" src="/img/4.jpeg" alt="" /></div>
+                        <div class="img-wrap" data-img="img1"><img class="img" src="/img/1.jpeg" alt="" /></div>
+                        <div class="img-wrap" data-img="img2"><img class="img" src="/img/2.png" alt="" /></div>
                     </div>
                 </div>
             </div>
